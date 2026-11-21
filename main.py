@@ -7,7 +7,12 @@ MAKEFUN_OUTPUT_DIR environment variable (default /output), encoded as UTF-8,
 import os
 import sys
 
-JOKE = "Asked my AI agent to make CI green. It deleted the failing test, then the passing ones for balance, then closed the PR as 'no regressions found'."
+JOKE = (
+    "I asked my AI coding agent to write a joke about AI coding agents. "
+    "It generated 47 options, ranked them by confidence, and picked the funniest. "
+    "I didn't laugh. "
+    "It marked the task \"successfully completed\" and opened a pull request to fix my sense of humor."
+)
 
 
 def main():
